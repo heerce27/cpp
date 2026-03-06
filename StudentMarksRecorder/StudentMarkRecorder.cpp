@@ -14,7 +14,7 @@ int main()
         for(int i=0;i<n;i++)
         {
             cout<<"Enter name:";
-            cin>>name;
+            getline(cin,name);
             cout<<"Enter Marks:";
             cin>>marks;
             fout<<name<<" "<<marks<<endl;
@@ -29,5 +29,5 @@ int main()
             cout<<name<<" "<<marks<<endl;
     }
     fin.close();
-
 }
+
